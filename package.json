@@ -1,0 +1,27 @@
+{
+  "name": "es-parsing-tools",
+  "version": "0.0.0",
+  "description": "Javascript Harmony syntax tree and scope parsing utilities. Used in the ES Bindings Pane and ES Navigation atom plugins, but may find use elsewhere.",
+  "main": "./build/index.js",
+  "keywords": [
+    "javascript",
+    "harmony",
+    "es6",
+    "parse",
+    "syntax",
+    "scope"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "escope": "^1.0.1",
+    "esprima-fb": "^8001.1001.0-dev-harmony-fb",
+    "estraverse": "^1.8.0",
+    "traceur": "0.0.79"
+  },
+  "author": "Guy Paterson-Jones",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-traceur": "^0.14.1"
+  }
+}

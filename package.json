@@ -1,8 +1,9 @@
 {
-  "name": "es-parsing-tools",
+  "name": "es-parse-tools",
   "version": "0.0.0",
   "description": "Javascript Harmony syntax tree and scope parsing utilities. Used in the ES Bindings Pane and ES Navigation atom plugins, but may find use elsewhere.",
   "main": "./build/index.js",
+  "repository": "https://github.com/incrementallair/es-parse-tools",
   "keywords": [
     "javascript",
     "harmony",
@@ -18,7 +19,7 @@
     "estraverse": "^1.8.0",
     "traceur": "0.0.79"
   },
-  "author": "Guy Paterson-Jones",
+  "author": "Incrementallair",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.8.10",

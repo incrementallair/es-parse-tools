@@ -62,7 +62,7 @@ function parseURI(uri, callback) {
         return callback(error);
       var toCache = new CachedObject(parsedURI, lastModified);
       cache.set(uri, toCache);
-      return callback(null, toCache);
+      return callback(null, toCache.parsedURI);
     }));
   }
   function getAtomTab(uri) {

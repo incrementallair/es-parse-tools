@@ -23,7 +23,7 @@ function clearCache() {
   cache.clear();
 }
 function parseURI(uri, callback) {
-  var tab = getAtomTab();
+  var tab = getAtomTab(uri);
   if (tab) {
     return getFromCache(uri, tab.getText(), callback);
   } else {
